@@ -1,0 +1,23 @@
+{% assign libraries = site.data.data.sidebar.libraries %}
+{% if libraries %}
+<div class="container-block">
+
+  <h2 class="container-block-title">
+    Libraries
+  </h2>
+
+  <ul class="list-unstyled libraries-list">
+    {% for library in libraries %}
+
+    {% if library.link %}
+    <li><a href="{{ library.link }}">{{ library.item }}</a></li>
+    {% else %}
+    <li>{{ library.item }}</li>
+    {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div>
+<!--//libraries-->
+{% endif %}
