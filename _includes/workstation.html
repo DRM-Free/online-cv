@@ -1,0 +1,23 @@
+{% assign workstations = site.data.data.sidebar.workstation %}
+{% if workstations %}
+<div class="container-block">
+
+  <h2 class="container-block-title">
+    Work station
+  </h2>
+
+  <ul class="list-unstyled workstations-list">
+    {% for workstation in workstations %}
+
+    {% if workstation.link %}
+    <li><a href="{{ workstation.link }}">{{ workstation.item }}</a></li>
+    {% else %}
+    <li>{{ workstation.item }}</li>
+    {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div>
+<!--//workstations-->
+{% endif %}
