@@ -59,17 +59,17 @@ career-profile:
 education:
     - degree: M.Sc. in Informatics in Grenoble (MoSIG)
       university: Grenoble University, ENSIMAG
-      time: 2011 - 2012
+      time: 2018 - 2019
       details: |
         Majoring in computer vision, machine learning and autonomous robotics.
     - degree: M.Sc. Medical Imaging, Signal and Systems (MISS)
       university: UCBL, Centrale Lyon
-      time: 2017 - 2018
+      time: 2015 - 2018
       details: |
         Majoring in signal processing, imaging technologies, physics for medical imaging, statistics and numerical optimization.
     - degree: B.Sc in physics and chemistry
       university: Grenoble University
-      time: 2015 - 2016
+      time: 2013 - 2015
 
 experiences:
     - role: Machine learning engineer
