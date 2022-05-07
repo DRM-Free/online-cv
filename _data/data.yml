@@ -101,7 +101,7 @@ projects:
     assignments:
       - title: Pressure prediction
         link: "#hook"
-        tagline: "In the context of a Kaggle competition, I developped a novel model, inspired by vision transformers, to predict the pressure in the lungs of 
+        tagline: "For a Kaggle competition, I developped a novel model, inspired by vision transformers, to predict the pressure in the lungs of
         ventilated patients"
 
 skills:
